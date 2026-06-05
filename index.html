@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foodie</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+
+    <div class="logo">
+        Foodie
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+<div class="menu-toggle">
+    <i class="fa-solid fa-bars"></i>
+</div>
+</nav>
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <h1>Delicious Food For Every Mood</h1>
+
+        <p>
+            Enjoy fresh ingredients, amazing taste,
+            and unforgettable dining experience.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#" class="btn order-btn">
+                Order Now
+            </a>
+
+            <a href="#" class="btn menu-btn">
+                View Menu
+            </a>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img
+         src="images/pizza.jfif"
+
+    </div>
+
+</section>
+<section class="stats">
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="500">0</h2>
+        <p>Happy Customers</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="120">0</h2>
+        <p>Food Items</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="15">0</h2>
+        <p>Expert Chefs</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="10">0</h2>
+        <p>Years Experience</p>
+    </div>
+
+</section>
+<section class="categories">
+
+    <div class="section-title">
+        <h2>Food Categories</h2>
+        <p>Choose your favorite category</p>
+    </div>
+
+    <div class="category-container">
+
+        <div class="category-card">
+            <img src="images/pizza1.jpg" alt="Pizza">
+            <h3>Pizza</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="images/burger.jpg" alt="Burger">
+            <h3>Burger</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="images/pasta.jpg" alt="Pasta">
+            <h3>Pasta</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="images/dessert.jpg" alt="Dessert">
+            <h3>Dessert</h3>
+        </div>
+
+    </div>
+
+</section>
+<section id="menu" class="menu">
+
+    <div class="section-title">
+        <h2>Our Food Menu</h2>
+        <p>Fresh and Delicious Food</p>
+    </div>
+<div class="filter-buttons">
+
+    <button class="filter-btn active" data-filter="all">
+        All
+    </button>
+
+    <button class="filter-btn" data-filter="pizza">
+        Pizza
+    </button>
+
+    <button class="filter-btn" data-filter="burger">
+        Burger
+    </button>
+
+    <button class="filter-btn" data-filter="pasta">
+        Pasta
+    </button>
+
+    <button class="filter-btn" data-filter="dessert">
+        Dessert
+    </button>
+
+</div>
+    <div class="menu-container">
+
+        <div class="menu-card" data-category="pizza">
+            <img src="images/marpizza.jfif" alt="Pizza">
+            <h3>Margherita Pizza</h3>
+            <p class="price">$12</p>
+            <p>⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div class="menu-card" data-category="pizza">
+            <img src="images/pizza2.jfif" alt="Pizza">
+            <h3>Pepperoni Pizza</h3>
+            <p class="price">$15</p>
+            <p>⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div class="menu-card" data-category="burger">
+            <img src="images/zinger.webp" alt="Burger">
+            <h3>Zinger Burger</h3>
+            <p class="price">$10</p>
+            <p>⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div class="menu-card" data-category="burger">
+            <img src="images/beefburger.webp" alt="Burger">
+            <h3>Beef Burger</h3>
+            <p class="price">$11</p>
+            <p>⭐⭐⭐⭐</p>
+        </div>
+
+        <div class="menu-card" data-category="pasta">
+            <img src="images/whitepasta.webp" alt="Pasta">
+            <h3>White Sauce Pasta</h3>
+            <p class="price">$14</p>
+            <p>⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div class="menu-card" data-category="dessert">
+            <img src="images/dessert1.webp" alt="Dessert">
+            <h3>Chocolate Dessert</h3>
+            <p class="price">$9</p>
+            <p>⭐⭐⭐⭐⭐</p>
+        </div>
+
+    </div>
+
+</section>
+<section id="about" class="about">
+
+    <div class="about-image">
+
+        <img src="images/resturant.jpeg" alt="Restaurant">
+
+        <img src="images/food.jpg" alt="Food">
+
+    </div>
+
+    <div class="about-content">
+
+        <h2>About Our Restaurant</h2>
+
+        <p>
+            Welcome to Foodie Restaurant, where taste meets quality.
+            We serve freshly prepared meals made from the finest
+            ingredients to give our customers an unforgettable dining experience.
+        </p>
+
+        <p>
+            Our expert chefs create delicious dishes with passion and creativity.
+            Whether you're craving pizza, burgers, pasta, or desserts,
+            we have something special for everyone.
+        </p>
+
+        <a href="#" class="about-btn">
+            Learn More
+        </a>
+
+    </div>
+
+</section>
+<section class="offer">
+
+    <div class="offer-content">
+
+        <h2>Special Weekend Offer</h2>
+
+        <p>
+            Get 30% OFF on all Pizza Orders.
+            Limited Time Offer!
+        </p>
+
+        <div class="countdown">
+
+            <div>
+                <span id="days">00</span>
+                <p>Days</p>
+            </div>
+
+            <div>
+                <span id="hours">00</span>
+                <p>Hours</p>
+            </div>
+
+            <div>
+                <span id="minutes">00</span>
+                <p>Minutes</p>
+            </div>
+
+            <div>
+                <span id="seconds">00</span>
+                <p>Seconds</p>
+            </div>
+
+        </div>
+
+        <a href="#" class="offer-btn">
+            Order Now
+        </a>
+
+    </div>
+
+</section>
+<section id="gallery" class="gallery">
+
+    <div class="section-title">
+        <h2>Food Gallery</h2>
+        <p>Explore Our Delicious Dishes</p>
+    </div>
+
+    <div class="gallery-container">
+
+        <img src="images/gallery1.jfif" alt="Food">
+        <img src="images/gallery2.webp" alt="Food">
+        <img src="images/gallery3.webp" alt="Food">
+        <img src="images/gallery4.webp" alt="Food">
+        <img src="images/gallery5.webp" alt="Food">
+        <img src="images/gallery6.jpg" alt="Food">
+        <img src="images/gallery7.webp" alt="Food">
+        <img src="images/gallery8.png" alt="Food">
+
+    </div>
+
+</section>
+<section class="timeline">
+
+    <div class="section-title">
+        <h2>Our Journey</h2>
+        <p>How Foodie Restaurant Grew Over The Years</p>
+    </div>
+
+    <div class="timeline-container">
+
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h3>2018</h3>
+                <p>Foodie Restaurant was founded with a passion for quality food.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h3>2020</h3>
+                <p>Expanded our menu and welcomed thousands of happy customers.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h3>2023</h3>
+                <p>Opened a second branch and introduced online ordering.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h3>2026</h3>
+                <p>Became one of the most loved restaurants in the city.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="chef">
+
+    <div class="section-title">
+        <h2>Meet Our Chefs</h2>
+        <p>Professional Chefs Behind Our Delicious Food</p>
+    </div>
+
+    <div class="chef-container">
+
+        <div class="chef-card">
+            <img src="images/chef1.webp" alt="Chef">
+
+            <h3>John Smith</h3>
+            <p>Head Chef</p>
+            <p>10 years Experience</p>
+            <div class="social-icons">
+
+    <a href="#">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-x-twitter"></i>
+    </a>
+
+</div>
+        </div>
+
+        <div class="chef-card">
+            <img src="images/chef2.jpg" alt="Chef">
+
+            <h3>Emma Wilson</h3>
+            <p>Pastry Chef</p>
+            <p>8 years Experience</p>
+           <div class="social-icons">
+
+    <a href="#">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-x-twitter"></i>
+    </a>
+
+</div>
+        </div>
+
+        <div class="chef-card">
+            <img src="images/chef3.jpg" alt="Chef">
+
+            <h3>Michael Brown</h3>
+            <p>Italian Chef</p>
+            <p>9 years Experience</p>
+            <div class="social-icons">
+
+    <a href="#">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-x-twitter"></i>
+    </a>
+
+</div>
+        </div>
+
+    </div>
+
+</section>
+<section class="hours">
+
+    <div class="section-title">
+        <h2>Opening Hours</h2>
+        <p>Visit Us During These Hours</p>
+    </div>
+
+    <div class="hours-container">
+
+        <div class="hours-box">
+
+            <h3>Restaurant Timings</h3>
+
+            <p>Monday - Friday : 9:00 AM - 10:00 PM</p>
+
+            <p>Saturday - Sunday : 10:00 AM - 11:00 PM</p>
+
+            <h2 id="status"></h2>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="testimonials">
+
+    <div class="section-title">
+        <h2>Customer Reviews</h2>
+        <p>What Our Customers Say</p>
+    </div>
+
+    <div class="testimonial-slider">
+
+        <div class="testimonial active">
+            <p>
+                The food was absolutely amazing and the service was excellent.
+            </p>
+
+            <h4>- Sarah Johnson</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>
+                Best pizza in town. Highly recommended!
+            </p>
+
+            <h4>- Michael Brown</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>
+                Delicious food and beautiful atmosphere.
+            </p>
+
+            <h4>- Emma Wilson</h4>
+        </div>
+
+    </div>
+
+</section>
+<section class="reservation">
+
+    <div class="section-title">
+        <h2>Book A Table</h2>
+        <p>Reserve Your Seat Today</p>
+    </div>
+
+    <form id="reservationForm">
+
+        <input
+        type="text"
+        id="name"
+        placeholder="Your Name">
+
+        <input
+        type="email"
+        id="email"
+        placeholder="Your Email">
+
+        <input
+        type="tel"
+        id="phone"
+        placeholder="Phone Number">
+
+        <input
+        type="date"
+        id="date">
+
+        <input
+        type="time"
+        id="time">
+
+        <input
+        type="text"
+        id="guest"
+        placeholder="Number Of Guest">
+
+         <input
+        type="text"
+        id="request"
+        placeholder="Special Request">
+
+        <button type="submit">
+            Reserve Now
+        </button>
+
+        <p id="formMessage"></p>
+
+    </form>
+
+</section>
+<section class="blog">
+
+    <div class="section-title">
+        <h2>Latest Blog Posts</h2>
+        <p>Food Tips, Recipes & Restaurant News</p>
+    </div>
+
+    <div class="blog-container">
+
+        <div class="blog-card">
+
+            <img src="images/blog card 1.jpg" alt="Blog">
+
+            <div class="blog-content">
+
+                <h3>5 Secrets of Perfect Pizza</h3>
+
+                <p>
+                    Discover the ingredients and techniques behind
+                    a delicious pizza.
+                </p>
+
+                <a href="#" class="blog-btn">
+                    Read More
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="blog-card">
+
+            <img src="images/blog card 2.jpg" alt="Blog">
+
+            <div class="blog-content">
+
+                <h3>Healthy Food Choices</h3>
+
+                <p>
+                    Learn how to enjoy tasty meals while staying healthy.
+                </p>
+
+                <a href="#" class="blog-btn">
+                    Read More
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="blog-card">
+
+            <img src="images/blog card 3.jfif" alt="Blog">
+
+            <div class="blog-content">
+
+                <h3>Best Desserts of 2026</h3>
+
+                <p>
+                    Explore our customers' favorite desserts this year.
+                </p>
+
+                <a href="#" class="blog-btn">
+                    Read More
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="newsletter">
+
+    <div class="newsletter-content">
+
+        <h2>Subscribe To Our Newsletter</h2>
+
+        <p>
+            Get the latest offers, recipes and restaurant updates.
+        </p>
+
+        <form id="newsletterForm">
+
+            <input
+            type="email"
+            id="newsletterEmail"
+            placeholder="Enter Your Email">
+
+            <button type="submit">
+                Subscribe
+            </button>
+
+        </form>
+
+        <p id="newsletterMessage"></p>
+
+    </div>
+
+</section>
+<section id="contact" class="contact">
+
+    <div class="section-title">
+        <h2>Contact Us</h2>
+        <p>Get In Touch With Us</p>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Contact Information</h3>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                123 Food Street, New York
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +1 234 567 890
+            </p>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                info@foodie.com
+            </p>
+
+            <div class="contact-social">
+
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<div class="lightbox" id="lightbox">
+
+    <span class="close-btn">&times;</span>
+
+    <img id="lightbox-img" src="" alt="">
+
+</div>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <h2>Foodie</h2>
+            <p>
+                Serving delicious food with love and quality since 2018.
+            </p>
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-social">
+
+            <h3>Follow Us</h3>
+
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Foodie. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<button id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+</header>
+<script src="script.js"></script>
+</body>
+</html>
