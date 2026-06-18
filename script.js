@@ -87,7 +87,7 @@ window.addEventListener("scroll", () => {
 
 });
 const targetDate =
-new Date("june 13, 2026 23:59:59").getTime();
+new Date("june 25, 2026 23:59:59").getTime();
 
 setInterval(() => {
 
